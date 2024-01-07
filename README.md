@@ -1,3 +1,3 @@
-#cs2asm
+#dissembler.x86
 
-converter of csharp files
+x86.dissembler
