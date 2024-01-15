@@ -1,4 +1,4 @@
-#dissembler.x86
+#libcc1.source
 
-x86.dissembler
-dissembler any x86 32bits elf and obj files
+
+list libcc1 sorce code
