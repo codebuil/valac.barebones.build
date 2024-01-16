@@ -1,4 +1,5 @@
-#libcc1.source
+#objdump2arm
 
 
-list libcc1 sorce code
+convert the output of object dump saved in file /tmp/null in arm code
+
