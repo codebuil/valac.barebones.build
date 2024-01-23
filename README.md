@@ -1,5 +1,4 @@
-#objdump2arm
+#valac.barbone.builder
 
-
-convert the output of object dump saved in file /tmp/null in arm code
+vala compiler is like c but have strings
 
