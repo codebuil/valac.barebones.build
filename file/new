@@ -21,7 +21,7 @@ void scrollb8000()
 	 
 	for(n=0;n<80*24*2;n++)src[n]=src[n+160];
 }
-void copyb8000(int address,string s)
+void copyb8000(int address,char *s)
 {
 	int n=0;
 	int nn=0;
@@ -43,7 +43,7 @@ void locate(int x,int y){
 	if(y>24)y=24;
 	zzz=y*80*2+x*2;
 }
-void print(string s){
+void print(char* s){
 	copyb8000(zzz,s);
 	xxx=0;
 	yyy++;
@@ -60,7 +60,7 @@ void kernel_main()
 	int x=0;
 	int y=0;
 	int n=0;
-        string *hello[10];
+	char *hello[10];
 	hello[0]="x86";
 	hello[1]="8086";
 	hello[2]="80186";
