@@ -1,9 +1,4 @@
-//gcc -c -o emulator.o emulator.c
-//gcc -T emulink.ld -o os.exe -nostdlib emulator.o -lgcc
 
-
-#include <stdio.h>
-#include <string.h>
 int xxx=0;
 int yyy=0;
 int zzz=0;
